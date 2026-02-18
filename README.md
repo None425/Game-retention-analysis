@@ -22,6 +22,7 @@ retention_7 : 7일차 재접속 여부
 
 ## 데이터 분석
 ### 1. Gate 위치에 따른 7일차 유지율 비교
+<img width="571" height="433" alt="output" src="https://github.com/user-attachments/assets/b76d7e03-9eaf-4874-ac4f-9e0422344f28" />  
 
 gate_30과 gate_40의 7일차 유지율 차이 존재
 
@@ -36,12 +37,14 @@ p-value = 0.0016
 실제로 유저 잔존에 영향을 미쳤을 가능성이 높음을 의미한다.
 
 ### 2. 1일차 유지 여부와 7일차 유지 관계
+<img width="249" height="134" alt="스크린샷 2026-02-18 204226" src="https://github.com/user-attachments/assets/9e98730f-cde5-4276-80e9-1db96dd16c9a" />  
 
 1일차 재접속 유저는  
 미재접속 유저 대비 7일차 유지 확률이 약 4배 이상 높음  
 → 초기 플레이 경험이 장기 리텐션에 결정적 영향  
 
 ### 3. 플레이 성향별 분석 (Light / Mid / Heavy)
+<img width="630" height="470" alt="pshml" src="https://github.com/user-attachments/assets/8047434d-b257-42c8-8ed0-820be8e15f2d" />  
 
 Light 유저 → gate_30에서 유지율 높음  
 Heavy 유저 → gate_40에서 영향 거의 없음  
@@ -70,6 +73,6 @@ Gate 위치 변경은 7일차 유지율에 통계적으로 유의한 영향을 �
 - 정교한 유저 행동 로그(세션 시간, 이탈 지점 등) 부족  
 
 ## 활용 기술
-PySpark : 그룹 집계 및 분산 처리 환경 실습
-Python : 데이터 분석 및 가설 검정
-VScode / Jupyter Notebook : 분석 환경
+PySpark : 그룹 집계 및 분산 처리 환경 실습  
+Python : 데이터 분석 및 가설 검정  
+VScode / Jupyter Notebook : 분석 환경  
